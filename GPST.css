@@ -1,35 +1,25 @@
 body {
-	color: #666666;
-	background-color: #FFFFFF;
-	
+    background-color: #FFFFFF;
+    color: #666666;
 }
 
 header {
-	color: #FFFFFF;
-	background-color: #00B386;
-	
+    background-color: #00B386;
+    color: #FFFFFF;
 }
 
 nav {
-	color: #666666;
-	background-color: #70DBDB;
-	
+    background-color: #70DBDB;
 }
 
 h2 {
-	color: #00664D;
-	background-color: #FFFFFF;
-	
+    color: #00664D;
 }
 
 dt {
-	color: #00664D;
-	background-color: #FFFFFF;
-	
+    color: #00664D;
 }
 
 .barn {
-
-color: #666666;
-	
+    color: #70DBDB;
 }
