@@ -1,54 +1,45 @@
-/* Header Element Styles */
 header {
     margin-bottom: 0;
-    line-height: 400%; /* Line height 400% */
-    text-indent: 1em; /* Text indent 1em */
+    line-height: 400%;
+    text-indent: 1em;
 }
 
-/* Remove <b></b> and make nav links bold */
 nav b {
-    font-weight: normal; /* Remove <b> tag effect */
+    font-weight: normal;
 }
 nav {
-    font-weight: bold; /* Make all nav text bold */
+    font-weight: bold;
 }
 
-/* Remove underlines from hyperlinks in the navigation */
 nav a {
-    text-decoration: none; /* Remove underline from hyperlinks */
+    text-decoration: none;
 }
 
-/* h1, h2, h3 Font Style */
 h1, h2, h3 {
-    font-family: "Georgia", "Times New Roman", serif; /* Set font face */
+    font-family: "Georgia", "Times New Roman", serif;
 }
 
-/* Use custom marker image for unordered list bullets */
 ul {
-    list-style-image: url('assets/marker.gif'); /* Set custom list bullet */
+    list-style-image: url('assets/marker.gif');
 }
 
-/* Footer Styles: Remove <small> and <i> */
 footer small, footer i {
-    display: none; /* Remove small and italic tags from footer */
+    display: none;
 }
 footer {
-    font-size: 75%; /* Set font size to 75% */
-    font-style: italic; /* Italicize text */
-    font-family: "Georgia", "Times New Roman", serif; /* Set font face */
+    font-size: 75%;
+    font-style: italic;
+    font-family: "Georgia", "Times New Roman", serif;
 }
 
-/* .barn Class Bold Text */
 .barn {
-    font-weight: bold; /* Make text bold */
+    font-weight: bold;
 }
 
-/* #contact ID Selector */
 #contact {
-    font-size: 90%; /* Set font size to 90% */
+    font-size: 90%;
 }
 
-/* Existing Styles */
 h1 {
     margin-bottom: 0;
 }
