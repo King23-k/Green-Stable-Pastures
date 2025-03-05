@@ -4,14 +4,12 @@ header {
     text-indent: 1em;
 }
 
-nav b {
-    font-weight: normal;
-}
+
 nav {
     font-weight: bold;
 }
 
-nav a {
+nav {
     text-decoration: none;
 }
 
@@ -23,9 +21,7 @@ ul {
     list-style-image: url('assets/marker.gif');
 }
 
-footer small, footer i {
-    display: none;
-}
+
 footer {
     font-size: 75%;
     font-style: italic;
@@ -51,7 +47,7 @@ header {
     color: #FFFFFF;
     height: 60px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     background-image: url(assets/pasture.png);
     background-repeat: no-repeat;
     background-position: right;
