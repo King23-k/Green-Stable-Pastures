@@ -1,14 +1,61 @@
-h1 { 
-    margin-bottom: 0;  
-}
-
-h2 {
-    text-shadow: 1px 1px #CCCCCC;
-    color: #00664D;
-}
-
+/* Header Element Styles */
 header {
     margin-bottom: 0;
+    line-height: 400%; /* Line height 400% */
+    text-indent: 1em; /* Text indent 1em */
+}
+
+/* Remove <b></b> and make nav links bold */
+nav b {
+    font-weight: normal; /* Remove <b> tag effect */
+}
+nav {
+    font-weight: bold; /* Make all nav text bold */
+}
+
+/* Remove underlines from hyperlinks in the navigation */
+nav a {
+    text-decoration: none; /* Remove underline from hyperlinks */
+}
+
+/* h1, h2, h3 Font Style */
+h1, h2, h3 {
+    font-family: "Georgia", "Times New Roman", serif; /* Set font face */
+}
+
+/* Use custom marker image for unordered list bullets */
+ul {
+    list-style-image: url('assets/marker.gif'); /* Set custom list bullet */
+}
+
+/* Footer Styles: Remove <small> and <i> */
+footer small, footer i {
+    display: none; /* Remove small and italic tags from footer */
+}
+footer {
+    font-size: 75%; /* Set font size to 75% */
+    font-style: italic; /* Italicize text */
+    font-family: "Georgia", "Times New Roman", serif; /* Set font face */
+}
+
+/* .barn Class Bold Text */
+.barn {
+    font-weight: bold; /* Make text bold */
+}
+
+/* #contact ID Selector */
+#contact {
+    font-size: 90%; /* Set font size to 90% */
+}
+
+/* Existing Styles */
+h1 {
+    margin-bottom: 0;
+}
+h2 {
+    text-shadow: 1px 1px #CCCCCC;
+}
+header {
     background-color: #00B386;
     color: #FFFFFF;
     height: 60px;
@@ -17,36 +64,28 @@ header {
     background-image: url(assets/pasture.png);
     background-repeat: no-repeat;
     background-position: right;
-    line-height: 400%;
-    text-indent: 1em;
 }
-
-body {
-    background-image: url(assets/sky.png);
-    font-family: Arial, sans-serif;
-    color: #666666;
+main {
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
 }
-
 nav {
     background-color: #FFFFFF;
     text-align: center;
     padding: 10px;
-    font-weight: bold;
 }
-
-nav a {
-    text-decoration: none;
+h2 {
+    color: #00664D;
 }
-
 dt {
     color: #00664D;
 }
-
 .barn {
     color: #70DBDB;
-    font-weight: bold;
 }
-
 #wrapper {
     margin: 0 auto;
     width: 80%;
@@ -55,52 +94,25 @@ dt {
     min-width: 900px;
     box-shadow: 4px 4px #133926;
 }
-
-#homeImage { 
+#homeImage {
     background-image: url(assets/sunsetHorse.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-#boardImage { 
+#boardImage {
     background-image: url(assets/fenceline.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-#trainingImage { 
+#trainingImage {
     background-image: url(assets/BayBella.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
 footer {
     padding: 15px;
     text-align: center;
-    font-size: 75%;
-    font-style: italic;
-    font-family: Georgia, "Times New Roman", serif;
-}
-
-h1, h2, h3 {
-    font-family: Georgia, "Times New Roman", serif;
-}
-
-ul {
-    list-style-image: url(assets/marker.gif);
-}
-
-main {
-    padding-top: 1px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    display: block;
-}
-
-#contact {
-    font-size: 90%;
 }
