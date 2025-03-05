@@ -10,7 +10,7 @@ header {margin-bottom: 0;
 body {
 
   background-image: url(assets/sky.png);
-
+  font-family: Arial, sans-serif;
 
     color: #666666;
 }
@@ -73,7 +73,11 @@ dt {
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
 }
-
+#trainingImage { background-image: url(assets/BayBella.png);
+             height: 300px;
+		   background-repeat: no-repeat;
+		   background-size: 100% 100%;
+}
 
 footer{
 	
