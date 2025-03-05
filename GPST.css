@@ -21,7 +21,7 @@ header {
 	height: 60px;
 	text-align: center;
 	padding-top: 15px;
-	
+	background-image: url(assets/pasture.png);
 }
 main{
 	padding-top: 1px;
