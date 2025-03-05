@@ -1,3 +1,12 @@
+h1 { 
+    margin-bottom: 0;  
+}
+
+h2 {
+    text-shadow: 1px 1px #CCCCCC;
+    color: #00664D;
+}
+
 header {
     margin-bottom: 0;
     background-color: #00B386;
@@ -12,6 +21,12 @@ header {
     text-indent: 1em;
 }
 
+body {
+    background-image: url(assets/sky.png);
+    font-family: Arial, sans-serif;
+    color: #666666;
+}
+
 nav {
     background-color: #FFFFFF;
     text-align: center;
@@ -23,50 +38,13 @@ nav a {
     text-decoration: none;
 }
 
-h1, h2, h3 {
-    font-family: Georgia, "Times New Roman", serif;
-}
-
-ul {
-    list-style-image: url(assets/marker.gif);
-}
-
-footer {
-    padding: 15px;
-    text-align: center;
-    font-size: 75%;
-    font-style: italic;
-    font-family: Georgia, "Times New Roman", serif;
+dt {
+    color: #00664D;
 }
 
 .barn {
     color: #70DBDB;
     font-weight: bold;
-}
-
-#contact {
-    font-size: 90%;
-}
-
-#homeImage {
-    background-image: url(assets/sunsetHorse.png);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#boardImage {
-    background-image: url(assets/fenceline.png);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#trainingImage {
-    background-image: url(assets/BayBella.png);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 #wrapper {
@@ -78,10 +56,41 @@ footer {
     box-shadow: 4px 4px #133926;
 }
 
-body {
-    background-image: url(assets/sky.png);
-    font-family: Arial, sans-serif;
-    color: #666666;
+#homeImage { 
+    background-image: url(assets/sunsetHorse.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#boardImage { 
+    background-image: url(assets/fenceline.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#trainingImage { 
+    background-image: url(assets/BayBella.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+ul {
+    list-style-image: url(assets/marker.gif);
 }
 
 main {
@@ -90,4 +99,8 @@ main {
     padding-right: 20px;
     padding-left: 20px;
     display: block;
+}
+
+#contact {
+    font-size: 90%;
 }
