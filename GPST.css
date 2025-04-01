@@ -5,10 +5,7 @@
 #mobile {display: none;}
 #desktop {display: inline;}
 
-    @media only screen and (max-width: 37.5em) {
-	#mobile {display: inline;}
-	#desktop {display: none;}
-}
+
 
 #wrapper {
     margin: 0 auto;
@@ -140,5 +137,9 @@ footer {
 
 footer small, footer i {
     display: none;
+}
+    @media only screen and (max-width: 37.5em) {
+	#mobile {display: inline;}
+	#desktop {display: none;}
 }
 
