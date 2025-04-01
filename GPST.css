@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-#mobile {display: none;}
-#desktop {display: inline;}
-
-
-
 #wrapper {
     margin: 0 auto;
     width: 80%;
@@ -138,7 +133,11 @@ footer {
 footer small, footer i {
     display: none;
 }
-    @media only screen and (max-width: 37.5em) {
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+@media only screen and (max-width: 37.5em) {
 	#mobile {display: inline;}
 	#desktop {display: none;}
 }
