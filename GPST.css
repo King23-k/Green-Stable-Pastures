@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+#mobile {display: none;}
+#desktop {display: inline;}
+
     @media only screen and (max-width: 37.5em) {
 	#mobile {display: inline;}
 	#desktop {display: none;}
