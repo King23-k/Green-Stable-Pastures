@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
+display {
+    @media only screen and (max-width: 37.5em) {
+	#mobile {display: inline;}
+	#desktop {display: none;}
+}
+}
 #wrapper {
     margin: 0 auto;
     width: 80%;
