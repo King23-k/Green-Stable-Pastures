@@ -1,144 +1,24 @@
-* {
-    box-sizing: border-box;
+header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+
+@media only screen and (max-width: 64em) {
+body {margin: 0; background-color: #FFFFFF;}
+#wrapper {min-width: 0; width: auto; box-shadow: none; border: none;}
+header {padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0; height: auto;}
+h1 {letter-spacing: 0.1em;}
+main {margin-left: 0;}
+nav {float: none; width: auto; text-align: center; padding: 0.5em;}
+nav ul li {display: inline; padding: 0.25em 0.75em;}
+#homeImage, #boardImage, #trainingImage {margin-left: 0; height: 200px;}
+footer {margin-left: 0;}
 }
-
-#wrapper {
-    margin: 0 auto;
-    width: 80%;
-    background-color: #0C5442;
-    max-width: 2050px;
-    min-width: 900px;
-    box-shadow: 4px 4px #133926;
-    border: 1.5pt solid #003300;
-    background-image: linear-gradient(to bottom, #FFFFFF, #0C5442);
-}
-
-body {
-    background-color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    color: #666666;
-}
-
-header {
-    margin-bottom: 0;
-    line-height: 400%;
-    text-indent: 1em;
-    background-color: #00B386;
-    color: #FFFFFF;
-    height: 175px;
-    text-align: center;
-    padding-top: 30px;
-    padding-left: 3em;
-    background-image: url(assets/pasture.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-h1 {
-    margin-top: 0;
-    font-size: 3em;
-    letter-spacing: 0.25em;
-    margin-bottom: 0;
-}
-
-h2 {
-    text-shadow: 1px 1px #CCCCCC;
-    color: #00664D;
-}
-
-dt {
-    color: #00664D;
-}
-
-.barn {
-    font-weight: bold;
-    color: #70DBDB;
-}
-
-nav {
-    font-weight: bold;
-    padding: 1.5em;
-    font-size: 120%;
-    float: left;
-    width: 160px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    font-size: 1.2em;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav a:link {
-    color: #00664D;
-}
-
-nav a:visited {
-    color: #7A7A52;
-}
-
-nav a:hover {
-    color: #FFFFFF;
-}
-
-main {
-    background-color: #FFFFFF;
-    margin-left: 190px;
-    padding-top: 1px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 30px;
-    display: block;
-}
-
-main ul {
-    list-style-image: url('assets/marker.gif');
-}
-
-
-#homeImage, #boardImage, #trainingImage {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 300px;
-    margin-left: 190px;
-}
-
-#homeImage {
-    background-image: url(assets/sunsetHorse.png);
-}
-
-#boardImage {
-    background-image: url(assets/fenceline.png);
-}
-
-#trainingImage {
-    background-image: url(assets/BayBella.png);
-}
-
-footer {
-    font-size: 75%;
-    font-style: italic;
-    font-family: "Georgia", "Times New Roman", serif;
-    padding: 15px;
-    text-align: center;
-    background-color: #FFFFFF;
-    margin-left: 190px;
-}
-
-footer small, footer i {
-    display: none;
-}
-
-#mobile {display: none;}
-#desktop {display: inline;}
 
 @media only screen and (max-width: 37.5em) {
-	#mobile {display: inline;}
-	#desktop {display: none;}
+main {padding: 0.1em 1em; font-size: 90%;}
+h1 {font-size: 2em;}
+nav {padding: 0;}
+nav ul li {display: block; margin: 0; border-bottom: 2px solid #330000;}
+nav a {display: block;}
+#homeImage, #boardImage, #trainingImage {background-image: none; height: 0;}
+#mobile {display: inline;}
+#desktop {display: none;}
 }
-
