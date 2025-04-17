@@ -1,11 +1,22 @@
-th, td {
+table {
   border-color: #006600;
-  border: 1px solid black;
+  border: 1px solid;
   border-collapse: collapse;
 }
-table {
-  width: 50px;
+
+tr, td {
+  border-color: #006600;
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 0.53em;
 }
+
+tr:nth-of-type(odd) {
+  background: red;
+}
+
+
+
 
 
 * {
