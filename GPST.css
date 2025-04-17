@@ -7,8 +7,8 @@ table {
 th, td {
   border-color: #006600;
   border: 1px solid;
-  border-collapse: collapse;
-  padding: 0.53em;
+
+  padding: 0.5em;
 }
 
 tr:nth-of-type(odd) {
