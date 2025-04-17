@@ -12,7 +12,7 @@ tr, td {
 }
 
 tr:nth-of-type(odd) {
-  background: red;
+  background: #ECF9EC;
 }
 
 
