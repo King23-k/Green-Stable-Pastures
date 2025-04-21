@@ -1,3 +1,30 @@
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 125px;
+    padding-right: 2em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 135px;
+}
+
+
+
+
+
+
+
+
+
+
 table {
   border-color: #006600;
   border: 1px solid;
