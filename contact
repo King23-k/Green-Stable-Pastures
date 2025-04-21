@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="GPST.css">
+  <title>Green Pastures Stables and Training</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="wrapper">
+
+<header class = "barn"><h1>Green Pastures Stables and Training</h1></header>
+<nav><a href="index.html">Home</a> <a href="training.html">Training</a> <a href="board.html">Board</a> <a href="contact.html">Contact Us</a></nav>
+
+<main>
+<h2>Contact Green Pastures Stables and Training</h2>
+<h3>Fill out the form below to contact us.</h3>
+<p>Required fields are marked with an asterisk *</p>  
+<form>
+  <label for="FName">*First name:</label><br>
+  <input type="text" id="FName" name="FName" value="" required><br>
+  <label for="LName">Last name:</label><br>
+  <input type="text" id="LName" name="LName" value=""><br>
+ 
+  <input type="submit" value="Submit">
+</form> 
+<div id="contact"><span class="barn">Green Pastures Stable and Training</span> <br><br> 1252 Green Pasture Rd <br> Amelia, Ohio 45102 <br><br> <a id="mobile" href="tel:888-555-0751">888-555-5555</a><span id="desktop">888-555-5555</span> <br> <br>
+</div> 
+</main>
+
+<footer>
+    <p>&copy; 2025 University of Cincinnati, IT2040 <br>
+    <a href="mailto:28kingtr@students.lovelandschools.org">28kingtr@students.lovelandschools.org</a></p>
+</footer>
+
+</div>
+</body> 
+</html>
