@@ -1,22 +1,60 @@
 #gallery {
-position: relative;
-height: 200px;
-
-
-	
+  position: relative;
+  height: 200px;
 }
+
 #gallery ul {
-list-style-type: none;
-width: 300px;	 
-
-	
+  list-style-type: none;
+  width: 300px;
 }
+
 #gallery li {
-display: inline;
-
-
-	
+  display: inline;
+  float: left;
+  padding: 10px;
 }
+
+#gallery img {
+  border: none;
+}
+
+#gallery a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+}
+
+#gallery span {
+  position: absolute;
+  left: -1000px;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+  position: absolute;
+  top: 15px;
+  left: 320px;
+  text-align: center;
+  opacity: 1;
+}
+
+#gallery figure {
+  position: absolute;
+  left: 280px;
+  opacity: 0.25;
+}
+
+footer {
+  clear: both;
+}
+
+@media (max-width: 37.5em) {
+  #gallery {
+    display: none;
+  }
+}
+
 label {
     float: left;
     display: block;
