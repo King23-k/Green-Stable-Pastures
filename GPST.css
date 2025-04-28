@@ -1,4 +1,22 @@
+#gallery {
+position: relative;
+height: 200px;
 
+
+	
+}
+#gallery ul {
+list-style-type: none;
+width: 300px;	 
+
+	
+}
+#gallery li {
+display: inline;
+
+
+	
+}
 label {
     float: left;
     display: block;
